@@ -1,6 +1,7 @@
 sudo apt install -y zsh neovim curl build-essential git
 chsh -s /bin/zsh
 mkdir ~/.config/nvim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 echo ":imap jk <Esc>" > ~/.config/nvim/init.vim
 
 # rust
