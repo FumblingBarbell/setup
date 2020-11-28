@@ -61,6 +61,9 @@ nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 
 
+" Show linenumbers
+set number
+
 
 let g:ale_fixers = {
 	\	'rust': ['rustfmt'],
